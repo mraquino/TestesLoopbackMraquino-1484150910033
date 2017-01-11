@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models",
+      "./models",
+      "./node_modules/loopback-component-passport/lib/models"
+    ]
+  },
+  "user": {
+    "dataSource": "TorkDatabase",
+    "public": true
+  },
+  "accessToken": {
+    "dataSource": "TorkDatabase",
+    "public": false
+  },
+  "userCredential": {
+    "dataSource": "TorkDatabase",
+    "public": false
+  },
+  "userIdentity": {
+    "dataSource": "TorkDatabase",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "TorkDatabase",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "TorkDatabase",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "TorkDatabase",
+    "public": false
+  }
+}
